@@ -8,10 +8,10 @@ First, make sure the dependencies are installed:
 
 Before running the script:
 1. Start Splash container in Docker: https://splash.readthedocs.io/en/stable/install.html
-2. In yelp/settings.py, set SPLASH_URL to the address and port where Splash is available.
+2. In yelp/yelp/settings.py, set SPLASH_URL to the address and port where Splash is available.
 
 Running the script:
-1. Run yelp/spiders/yelp_script.py.
+1. Run yelp/yelp/spiders/yelp_script.py.
 2. Enter business url.
 3. Output is saved as a json file in the same folder as the script.
 4. If you run the script again, ReactorNotRestartable error will be raised. To run the parser again, simply restart kernel where script was executed.
@@ -36,7 +36,7 @@ What parser does:
 - Splash is used to access dynamically loaded content (Amenities and More and About the Business).
 - Parser also handles pages where Amenities and More and About the Business sections are not expandable (like on this page: https://www.yelp.com/biz/heises-plumbing-san-francisco)
 
-Three sample output json files are available in yelp/spiders/. They were obtained from the following pages:
+Three sample output json files are available in yelp/yelp/spiders/. They were obtained from the following pages:
 - https://www.yelp.com/biz/fog-harbor-fish-house-san-francisco-2
 - https://www.yelp.com/biz/burma-superstar-san-francisco-2
 - https://www.yelp.com/biz/heises-plumbing-san-francisco

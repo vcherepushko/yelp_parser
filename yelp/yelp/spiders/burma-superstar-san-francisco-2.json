@@ -1,0 +1,79 @@
+[
+   {
+      "name":"Burma Superstar",
+      "business_page":"https://www.yelp.com/biz/burma-superstar-san-francisco-2",
+      "business_id":"burma-superstar-san-francisco-2",
+      "img":"https://s3-media0.fl.yelpcdn.com/bphoto/Rt-zOS-uNY0cafsq1UeoDw/l.jpg",
+      "phone":"(415) 387-2147",
+      "address":[
+         "309 Clement St",
+         "San Francisco, CA 94118"
+      ],
+      "avg_rating":"4",
+      "num_reviews":"6821",
+      "categories":[
+         "Burmese"
+      ],
+      "website":"burmasuperstar.com",
+      "schedule":[
+         [
+            "Mon",
+            "11:30 AM - 2:30 PM"
+         ],
+         [
+            "Tue",
+            "5:00 PM - 8:30 PM"
+         ],
+         [
+            "Wed",
+            "11:30 AM - 2:30 PM"
+         ],
+         [
+            "Thu",
+            "5:00 PM - 8:30 PM"
+         ],
+         [
+            "Fri",
+            "11:30 AM - 2:30 PM"
+         ],
+         [
+            "Sat",
+            "5:00 PM - 8:30 PM"
+         ],
+         [
+            "Sun",
+            "11:30 AM - 2:30 PM"
+         ]
+      ],
+      "about":"During the SF shelter in place order, we are offering takeout and delivery during lunch and dinner.  Please call the restaurant directly, or order here through Grubhub!\n\nLunch from 11:30am-2:30pm.  Dinner from 5pm-8:30pm.",
+      "amenities":[
+         "96 out of 100",
+         "Offers Delivery",
+         "Offers Takeout",
+         "No Reservations",
+         "Accepts Credit Cards",
+         "Pescatarian Options",
+         "Vegan Options",
+         "Many Vegetarian Options",
+         "Outdoor Seating",
+         "Classy, Casual",
+         "Moderate Noise",
+         "Good for Groups",
+         "Good For Kids",
+         "Good for Dinner",
+         "Street Parking, Private Lot Parking",
+         "Bike Parking",
+         "Waiter Service",
+         "Beer & Wine Only",
+         "Wheelchair Accessible",
+         "Gender Neutral Restrooms",
+         "Accepts Android Pay",
+         "Accepts Apple Pay",
+         "No Wi-Fi",
+         "No Happy Hour",
+         "Dogs Not Allowed",
+         "No TV",
+         "Sit-down dining"
+      ]
+   }
+]

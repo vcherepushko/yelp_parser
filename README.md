@@ -1,5 +1,5 @@
 # yelp_parser
-Parsing Yelp business pages with Scrapy
+## Parsing Yelp business pages with Scrapy
 
 First, make sure the dependencies are installed:
 1. Scrapy: https://github.com/scrapy/scrapy
@@ -31,9 +31,12 @@ What parser does:
   - schedule
   - about
   - amenities
-- Address is scraped as-is without diving it into street, city, state, etc. because there's each business fills this field differently.
 - None of the pages contained email field and so it's not scraped.
+- Address is scraped as-is without diving it into street, city, state, etc. because each business uses different format of address.
 - Splash is used to access dynamically loaded content (Amenities and More and About the Business).
 - Parser also handles pages where Amenities and More and About the Business sections are not expandable (like on this page: https://www.yelp.com/biz/heises-plumbing-san-francisco)
 
-3 sample output json files are available in yelp/spiders/.
+Three sample output json files are available in yelp/spiders/. They were obtained from the following pages:
+- https://www.yelp.com/biz/fog-harbor-fish-house-san-francisco-2
+- https://www.yelp.com/biz/burma-superstar-san-francisco-2
+- https://www.yelp.com/biz/heises-plumbing-san-francisco
